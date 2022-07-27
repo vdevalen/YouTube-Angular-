@@ -1,0 +1,7 @@
+.grid{ /*grilla como youtube*/
+    display: grid;/**/
+    grid-template-columns: repeat(5, 1fr); /*tendra 6 imagenes*/
+    gap: 1rem;
+    padding-left: 0rem; /*espacio a la izquierda*/
+    padding-bottom: 100rem; /*espacio entre imagenes*/
+}

@@ -1,0 +1,26 @@
+
+.header{
+    width: 100%;
+    background-color: rgb(228, 177, 177) ;
+    border-bottom: solid 1px black; /*fondo del borde*/
+}
+
+.menu{
+    margin: 0px;
+    padding: 0px;
+    display: flex; /*se quita el formato de losta*/
+    list-style: none; /*quitarle los puntos a l alista*/
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 2em; /*tamaño del logo rem duplica el doble de rango de la fuente*/
+}
+
+.menu li{
+    font-weight: 600;
+    padding: 5px;
+    text-align: center;
+}

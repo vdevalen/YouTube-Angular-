@@ -12,7 +12,6 @@ export class CardComponent implements OnInit {
   @Input() dataEntrante:any; //se usa para resibir datos dentro de un componente 
   constructor() { }
 
-  
   ngOnInit(): void {
     this.image= "https://www.buenamusica.com/media/fotos/discos/b/bad-bunny/bad-bunny_diles.jpg"
   }
